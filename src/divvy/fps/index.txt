@@ -22,7 +22,8 @@ for divvy.fps:
 
 #. Grab the source code from the mainline git repository::
 
-     $ git clone git://github.com/pcardune/divvy.fps
+     $ git clone git://github.com/pcardune/divvy.fps.git
+     $ cd divvy.fps
 
 #. Run the bootstrap.py script to get the development environment
    setup::
