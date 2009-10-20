@@ -1,0 +1,1 @@
+This is a library for working with amazons flexible payment service.

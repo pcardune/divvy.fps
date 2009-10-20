@@ -1,0 +1,9 @@
+<PayResponse xmlns="http://fps.amazonaws.com/doc/2008-09-17/">
+  <PayResult>
+    <TransactionId>13N8UPFET32I4I7FCF9T4ZKFETETINTK56Q</TransactionId>
+    <TransactionStatus>Pending</TransactionStatus>
+  </PayResult>
+  <ResponseMetadata>
+    <RequestId>b415f09d-5924-4315-b31a-21c977c85c39:0</RequestId>
+  </ResponseMetadata>
+</PayResponse>
