@@ -27,7 +27,8 @@ def read(*rnames):
 setup(
     name='divvy.fps',
     version = '0.1.5dev',
-    author='Divvyshot, Inc.',
+    author='Paul Carduner and Contributors',
+    author_email = "paul@carduner.net",
     description='Library for working with Amazon Flexible Payment Service',
     long_description=(
         read('README.txt')
@@ -37,6 +38,13 @@ setup(
         read('AUTHORS.txt')
         ),
     license = "GNU LGPL v3",
+    keywords = "Amazon Flexible Payment Service",
+    classifiers = [
+        'Intended Audience :: Developers',
+        'Programming Language :: Python',
+        'Natural Language :: English',
+        'Operating System :: OS Independent',
+        'Topic :: Internet :: WWW/HTTP'],
     packages = find_packages('src'),
     package_dir = {'': 'src'},
     namespace_packages = ['divvy'],
